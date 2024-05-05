@@ -35,5 +35,7 @@ sudo mkdir /var/www
 sudo mkdir /var/www/html
 cd /var
 sudo nano Dockerfile
+cd www
+sudo nano index.py
 ```
 localhost:5003
