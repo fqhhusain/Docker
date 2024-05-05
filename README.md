@@ -38,4 +38,9 @@ sudo nano Dockerfile
 cd www
 sudo nano index.py
 ```
+Build di directory /var
+```
+docker build -t my-python-app .
+docker run -p 5003:5003 my-python-app
+```
 localhost:5003
